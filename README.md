@@ -17,7 +17,6 @@ It runs on the port 9000 be default
 ## Insallation on EC2 instance
 ```
 sudo apt update
-sudo apt install 
 sudo su
 cd /opt
 sudo apt install default-jre
