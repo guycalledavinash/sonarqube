@@ -10,7 +10,7 @@ Sonrqube is an open-source, java based code review tool which does:
 
 5. Identify Duplicate code
 
-It runs on the port 9000 be default
+It runs on the port 9000 by default
 
 4 GB RAM is recommended to run this so choose relevant EC2 instance
 
