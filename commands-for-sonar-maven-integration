@@ -1,0 +1,5 @@
+mvn sonar:sonar `
+  "-Dsonar.projectKey=onlinebookstore" `
+  "-Dsonar.projectName=onlinebookstore" `
+  "-Dsonar.host.url=http://98.81.138.176:9000" `
+  "-Dsonar.token=sqp_c987753812bcb8d57eddd222dd47a1xxxx"
