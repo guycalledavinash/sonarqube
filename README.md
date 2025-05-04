@@ -22,6 +22,7 @@ cd /opt
 sudo apt install default-jre
 java -version
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.8.zip
+mv sonarqube-xxx sonarqube.zip
 unzip sonarqube-7.8.zip
 ```
 
@@ -34,13 +35,13 @@ Configure sonar user without pwd in the suderos file by adding `sonar ALL=(ALL) 
 
 Change ownership for sonar folder/directory:
 ```
-chown -R sonar:sonar /opt/sonarqube-7.8/
-chmod -R 775 /opt/sonarqube-7.8
+chown -R sonar:sonar /opt/sonarqube/
+chmod -R 775 /opt/sonarqube
 su sonar
 ```
 Goto bin/linux directory, run sonar server:
 ```
-cd /opt/sonarqube-7.8/bin/linux-x86-64
+cd /opt/sonarqube/bin/linux-x86-64
 sh sonar.sh start
 ```
 Check sonar server status 
