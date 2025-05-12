@@ -21,9 +21,9 @@ sudo su
 cd /opt
 sudo apt install default-jre
 java -version
-wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.8.zip
-mv sonarqube-xxx sonarqube.zip
-unzip sonarqube-7.8.zip
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-25.5.0.107428.zip
+mv sonarqube-25.5.0.107428.zip sonarqube.zip
+unzip sonarqube.zip
 ```
 
 It is worth noting that SonarQube server will not run with root user
