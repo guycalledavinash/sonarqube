@@ -48,4 +48,6 @@ Check sonar server status
 ```
 sh sonar.sh status
 ```
+It runs on port 9000
+
 The default port of sonar serve can be changed at ( conf/sonar.properties) like `sonar.web.port=6000`
