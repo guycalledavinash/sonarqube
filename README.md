@@ -24,7 +24,7 @@ java -version
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-25.5.0.107428.zip
 mv sonarqube-25.5.0.107428.zip sonarqube.zip
 unzip sonarqube.zip
- mv sonarqube-25.5.0.107428/ sonarqube
+mv sonarqube-25.5.0.107428/ sonarqube
 ```
 
 It is worth noting that SonarQube server will not run with root user
